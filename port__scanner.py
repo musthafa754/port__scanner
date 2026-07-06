@@ -29,7 +29,7 @@ print(f"""
 """)
 
 # ---- TARGET ----
-target = input(f"{Fore.YELLOW}Enter IP address to scan (try 127.0.0.1 for your own PC): {Style.RESET_ALL}")
+target = input(f"{Fore.YELLOW}Enter IP address to scan : {Style.RESET_ALL}")
 
 # ---- CHECK IF TARGET IS REACHABLE ----
 try:
